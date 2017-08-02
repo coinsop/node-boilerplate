@@ -1,9 +1,9 @@
 const crypto = require('crypto');
 
-class DevBlock {
-  constructor(index, timestamp, data, previous) {
+class Block {
+  constructor(index, data, previous) {
     this.__index = index;
-    this.__timestamp = timestamp;
+    this.__timestamp = new Date().getTime();
     this.__data = data;
     this.__previous = previous;
     this.__hash = this.hashBlock();
@@ -25,4 +25,4 @@ class DevBlock {
   }
 }
 
-module.exports = DevBlock;
+module.exports = Block;

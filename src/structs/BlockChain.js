@@ -1,7 +1,7 @@
 const genesisHlpr = require('../helpers/genesis');
 const proofHlpr = require('../helpers/proof');
 
-class DevBlockChain {
+class BlockChain {
   constructor(prefix) {
     this.__prefix = prefix || '000000';
     this.__chain = [];
@@ -27,4 +27,4 @@ class DevBlockChain {
   }
 }
 
-module.exports = DevBlockChain;
+module.exports = BlockChain;
