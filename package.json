@@ -1,7 +1,7 @@
 {
-  "name": "blockchain",
+  "name": "node-boilerplate",
   "version": "0.0.1",
-  "description": "Coinsop blockchain proptotype",
+  "description": "Coinsop Node JS Boiler Plte",
   "main": "index.js",
   "scripts": {
     "test": "babel-node ./node_modules/.bin/isparta cover _mocha",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:coinsop/blockchain.git"
+    "url": "git@github.com:coinsop/node-boilerplate.git"
   },
   "keywords": [
     "blockchain",
@@ -50,8 +50,5 @@
       "add-module-exports"
     ]
   },
-  "dependencies": {
-    "keypair": "^1.0.1",
-    "winston": "^2.3.1"
-  }
+  "dependencies": {}
 }
