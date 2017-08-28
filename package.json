@@ -49,5 +49,8 @@
     "plugins": [
       "add-module-exports"
     ]
+  },
+  "dependencies": {
+    "babel": "^6.23.0"
   }
 }
