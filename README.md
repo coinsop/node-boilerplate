@@ -1,2 +1,2 @@
-# blockchain
-Blockchain prototype
+# node-boilerplate
+Node Boilerplate
