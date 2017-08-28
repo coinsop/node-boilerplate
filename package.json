@@ -7,8 +7,8 @@
     "lint": "eslint src/**/*.js && echo '> lint passed!'",
     "clean": "rm -rf dist",
     "copy": "cp package.json dist/. && cp yarn.lock dist/. && cp README.md dist/. && cp LICENSE dist/.",
-    "build": "npm run lint && npm run clean && mkdir dist && babel src -s -d dist && npm run copy",
-    "test": "npm run lint && babel-node ./node_modules/.bin/isparta cover _mocha",
+    "build": "npm run clean && mkdir dist && babel src -s -d dist && npm run copy",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha",
     "start": "npm run build && node dist/index.js"
   },
   "repository": {
