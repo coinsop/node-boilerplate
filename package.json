@@ -18,6 +18,7 @@
   "keywords": [
     "boilerplate",
     "coinsop",
+    "node",
     "nodejs"
   ],
   "author": "Coinsop",
@@ -45,11 +46,6 @@
     ],
     "plugins": [
       "add-module-exports"
-    ]
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "eslint --fix"
     ]
   }
 }
